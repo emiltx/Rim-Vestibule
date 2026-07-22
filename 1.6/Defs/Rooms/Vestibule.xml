@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RoomRoleDef>
+    <defName>Vestibule</defName>
+    <label>vestibule</label>
+    <workerClass>Vestibule.RoomRoleWorker_Vestibule</workerClass>
+  </RoomRoleDef>
+
+</Defs>

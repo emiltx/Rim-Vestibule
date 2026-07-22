@@ -49,6 +49,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RoomVestibule.cs" />
     <Compile Include="EntryWardrobe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
