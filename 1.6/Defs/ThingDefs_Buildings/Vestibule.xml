@@ -25,9 +25,12 @@
       <Beauty>2</Beauty>
     </statBases>
     <size>(1,1)</size>
-    <costList>
-      <WoodLog>30</WoodLog>
-    </costList>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
     <designationCategory>Furniture</designationCategory>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <rotatable>true</rotatable>
