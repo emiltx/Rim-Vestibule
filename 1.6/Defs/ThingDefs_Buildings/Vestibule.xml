@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Vestibule</defName>
+    <label>entryway wardrobe</label>
+    <description>Un meuble qui permettra d'assigner des tenues civile et spéciale selon la porte utilisée.</description>
+    <thingClass>Building_Storage</thingClass>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Things/Building/Furniture/ShelfSmall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+    <designationCategory>Furniture</designationCategory>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <rotatable>true</rotatable>
+    <selectable>true</selectable>
+    <building>
+      <isEdifice>true</isEdifice>
+      <fixedStorageSettings>
+        <priority>Preferred</priority>
+        <filter>
+          <disallowNotEverStorable>true</disallowNotEverStorable>
+            <categories>
+                <li>Apparel</li>
+            </categories>
+        </filter>
+      </fixedStorageSettings>
+      <maxItemsInCell>4</maxItemsInCell>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <comps>
+        <li Class="Vestibule.CompProperties_EntryWardrobe"/>
+    </comps>
+  </ThingDef>
+
+</Defs>

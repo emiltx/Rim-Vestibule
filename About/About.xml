@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Vestibule</name>
+	<author>Emiltx21</author>
+	<packageId>emiltx21.vestibule</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+
+	<loadBefore>
+		<li></li>
+	</loadBefore>
+
+	<loadAfter>			
+		<li></li>
+	</loadAfter>
+
+	<description></description>
+	<url></url>
+</ModMetaData>
