@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Vestibule.AssignCivilOutfit>Assigner tenue civile</Vestibule.AssignCivilOutfit>
+  <Vestibule.AssignSpecialOutfit>Assigner tenue spéciale</Vestibule.AssignSpecialOutfit>
+  <Vestibule.SelectCivilDoor>Sélectionner porte civile</Vestibule.SelectCivilDoor>
+  <Vestibule.SelectSpecialDoor>Sélectionner porte spéciale</Vestibule.SelectSpecialDoor>
+  <Vestibule.CurrentOutfit>Actuelle : {0}</Vestibule.CurrentOutfit>
+  <Vestibule.NoOutfitAssigned>Aucune tenue assignée</Vestibule.NoOutfitAssigned>
+  <Vestibule.NoDoorLinked>Aucune porte liée</Vestibule.NoDoorLinked>
+  <Vestibule.DoorLinkedAt>Porte liée en {0}</Vestibule.DoorLinkedAt>
+</LanguageData>

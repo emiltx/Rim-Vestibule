@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>Vestibule</defName>
     <label>entryway wardrobe</label>
-    <description>Un meuble qui permettra d'assigner des tenues civile et spéciale selon la porte utilisée.</description>
+    <description>A piece of furniture that automatically changes colonists' outfit.</description>
     <thingClass>Building_Storage</thingClass>
     <category>Building</category>
     <graphicData>
@@ -51,6 +51,9 @@
     <inspectorTabs>
       <li>ITab_Storage</li>
     </inspectorTabs>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
     <comps>
         <li Class="Vestibule.CompProperties_EntryWardrobe"/>
     </comps>

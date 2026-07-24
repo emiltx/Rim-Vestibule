@@ -88,32 +88,32 @@ namespace Vestibule
         {
             yield return new Command_Action
             {
-                defaultLabel = "Assigner tenue civile",
-                defaultDesc = civilOutfit != null ? $"Actuelle : {civilOutfit.label}" : "Aucune tenue assignée",
+                defaultLabel = "Vestibule.AssignCivilOutfit".Translate(),
+                defaultDesc = civilOutfit != null ? "Vestibule.CurrentOutfit".Translate(civilOutfit.label) : "Vestibule.NoOutfitAssigned".Translate(),
                 icon = TexCommand.SelectShelf,
                 action = () => OpenOutfitMenu(o => civilOutfit = o)
             };
 
             yield return new Command_Action
             {
-                defaultLabel = "Assigner tenue spéciale",
-                defaultDesc = specialOutfit != null ? $"Actuelle : {specialOutfit.label}" : "Aucune tenue assignée",
+                defaultLabel = "Vestibule.AssignSpecialOutfit".Translate(),
+                defaultDesc = specialOutfit != null ? "Vestibule.CurrentOutfit".Translate(specialOutfit.label) : "Vestibule.NoOutfitAssigned".Translate(),
                 icon = TexCommand.SelectShelf,
                 action = () => OpenOutfitMenu(o => specialOutfit = o)
             };
 
             yield return new Command_Action
             {
-                defaultLabel = "Sélectionner porte civile",
-                defaultDesc = civilDoor != null ? $"Porte liée en {civilDoor.Position}" : "Aucune porte liée",
+                defaultLabel = "Vestibule.SelectCivilDoor".Translate(),
+                defaultDesc = civilDoor != null ? "Vestibule.DoorLinkedAt".Translate(civilDoor.Position) : "Vestibule.NoDoorLinked".Translate(),
                 icon = TexCommand.Install,
                 action = () => SelectDoor(d => civilDoor = d)
             };
 
             yield return new Command_Action
             {
-                defaultLabel = "Sélectionner porte spéciale",
-                defaultDesc = specialDoor != null ? $"Porte liée en {specialDoor.Position}" : "Aucune porte liée",
+                defaultLabel = "Vestibule.SelectSpecialDoor".Translate(),
+                defaultDesc = specialDoor != null ? "Vestibule.DoorLinkedAt".Translate(specialDoor.Position) : "Vestibule.NoDoorLinked".Translate(),
                 icon = TexCommand.Install,
                 action = () => SelectDoor(d => specialDoor = d)
             };

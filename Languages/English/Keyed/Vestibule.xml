@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Vestibule.AssignCivilOutfit>Assign civilian outfit</Vestibule.AssignCivilOutfit>
+  <Vestibule.AssignSpecialOutfit>Assign special outfit</Vestibule.AssignSpecialOutfit>
+  <Vestibule.SelectCivilDoor>Select civilian door</Vestibule.SelectCivilDoor>
+  <Vestibule.SelectSpecialDoor>Select special door</Vestibule.SelectSpecialDoor>
+  <Vestibule.CurrentOutfit>Current: {0}</Vestibule.CurrentOutfit>
+  <Vestibule.NoOutfitAssigned>No outfit assigned</Vestibule.NoOutfitAssigned>
+  <Vestibule.NoDoorLinked>No door linked</Vestibule.NoDoorLinked>
+  <Vestibule.DoorLinkedAt>Linked door at {0}</Vestibule.DoorLinkedAt>
+</LanguageData>

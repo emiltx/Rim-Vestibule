@@ -15,6 +15,18 @@
 		<li></li>
 	</loadAfter>
 
-	<description></description>
+	<description>
+Vestibule\n
+
+Assign a civilian and a special outfit to the Entryway Wardrobe, then select which door corresponds to each. When a colonist walks through one door, their outfit policy switches to the other side automatically — no manual changes needed.
+
+The Entryway Wardrobe has 4 storage slots for clothing. For best results, add extra storage in the room, since 4 slots may not be enough to hold every colonist's spare outfit.
+
+Localization: English, French
+
+Requirements: none beyond base RimWorld.
+
+This is my first mod — bug reports and suggestions are welcome.
+	</description>
 	<url></url>
 </ModMetaData>
